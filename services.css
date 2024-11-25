@@ -1,0 +1,318 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Sen";
+}
+
+button{
+  font-family: "Sen", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding: 20px;
+  border-width: 0px;
+  border-radius: 10px;
+  background: black;
+}
+
+/*
+Navbar
+*/
+
+.navbar ul {
+  list-style-type: none;
+  background-color: black;
+  padding: 15px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  
+}
+
+.navbar li {
+  float: none;
+  margin: 0px;
+  margin-right: 2px;
+  padding-right: 20px;
+}
+
+.navbar .logo {
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar li {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+
+.navbar a:hover {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.navbar img {
+  max-height: auto;
+  width: auto;
+}
+
+.navbar{
+  font-family: "Sen";
+  font-size: 1.1rem;
+  margin: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.bar{
+  position: relative;
+}
+
+/*
+Courses Section
+*/
+
+.courses{
+  font-family: "Sen";
+  margin:15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.courses h1{
+  margin-left: 14px;
+}
+
+.coursesWrapper{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.folder{
+  flex: 0 1 calc(200px - 20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  min-height: 200px; 
+  border-radius: 30px;
+  background-color: #f4f4f4;
+  box-sizing: border-box;
+  margin: 10px;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.folder:hover{
+  cursor: pointer;
+}
+
+.folder img{
+  width:100px;
+  height: 100px;
+}
+
+.folder p{
+  margin-top: 10px;
+  font-size: 1.2rem;  
+}
+
+/*
+School Resources
+*/
+
+.link{
+  background-color:#f4f4f4;
+  border-radius: 15px;
+  margin: 20px;
+  min-height: 180px;
+}
+
+.link:hover{
+  background-color: rgb(158, 158, 158);
+}
+
+.resource{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.resources{
+  background-color: black;
+  margin:15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.resources h3{
+  margin:36px;
+  width: 150px;
+  text-align: center;
+}
+
+.resources h1{
+  margin: 36px;
+  color: white;
+}
+
+/*
+Footer
+*/
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Sen";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: black;
+}
+
+.message{
+  flex: 1;
+  float: left;
+  width: 30%;
+  padding: 50px;
+  padding-right: 10px;
+  margin-left: -15px; 
+}
+
+p{
+  font-size: 20px;
+  width: 500px
+}
+
+.msg{
+  font-size: 20px;
+}
+
+.form{
+  flex: 1;
+  float: right;
+  width: 70%;
+  padding: 50px;
+}
+
+textarea{
+min-width:600px;
+min-height:100px;
+border-radius: 15px;
+border-width: 3px;
+border-color: grey;
+}
+
+input{
+  border-radius: 15px;
+  border-width: 3px;
+  border-color: grey;
+  min-width: 600px; 
+}
+
+#submit{
+color: white;
+border-style: solid;
+border-width: 2px;
+border-width: 0;
+}
+
+/*
+Course Form
+*/
+
+.pagecenter{
+  background: linear-gradient(109.6deg, rgba(0, 0, 0, 0.93) 11.2%, rgb(63, 61, 61) 78.9%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courseForm{
+  
+  font-family: "Sen";
+  margin:15px;
+  /*margin-top: 40px;
+  margin-bottom: 40px;*/
+  background-color:#fff;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  border-radius: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(0, 50%);
+  box-shadow: 10px 4px 10px black;
+}
+.courseform-title{
+padding-bottom: 20px; 
+padding-top: -5px;
+font-size: 25px;
+}
+
+.coursemakingform {
+  border: 2px solid orange;
+  height: 300px;
+  width: 400px;
+  align-items: center;
+}
+
+.pagecenter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#courseName{
+  min-width: 125px;
+  width: 130px;
+}
+
+#courseId{
+  min-width: 100px;
+}
+
+.courseID {
+  margin: 2px;
+}
+
+#formSubmit{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.formContainer{
+align-items: center;
+}
+
+#courseType{
+  width: 147px;
+  border-radius: 15px;
+  border-color: grey;
+  border-width: 3px;
+}

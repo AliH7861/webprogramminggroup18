@@ -1,0 +1,396 @@
+body{
+  /*background: url('https://s3-alpha-sig.figma.com/img/0276/1371/0914f976bc21b4114392cd37ce6e3bbb?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RqTwItKbU3lHH~hbsCIGUhVVakNLTlQPhHM1MzUkVZvvQn4aeHQQtCYynvcnwGzeEjcXrif2JNEWYC4ReuqHYvaq2LypKt-FAxc-wHkAbpq-fufZZ8qPqocdjwIGFgGC4tweqxRMLa~kXJbrmTdOXVUQ0pE~yeaP3nQ6YkgwvII5ztNnkATNNcnOu85fqyAHPqAE-lZcGoOlXHedq93L3O8~nFiMMhJogcjMk2nhpJntcHYet0YRNluLbJTfSPXoo-OfQPxLw2O0vSJM7xk2deMWhAbFmoxDOJqfydeNRHDnC-Z8b5nMmokqPNjpzAaEBtai6gydtQQyI1jgEqlv0w__')
+  */
+  background-color: white;
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*
+About Us
+*/
+
+.au{
+display: flex;
+flex-direction: column;
+font-family: "Sen";
+align-items: center;
+text-align: center;
+font-size: 25px;
+font-weight: 400;
+padding-bottom: 45px;
+}
+
+#aboutp{
+  min-width: 600px;
+}
+
+/*
+Home Welcome
+*/
+
+.wrapper{
+display: flex;
+flex-wrap: wrap;
+font-family: "Sen";
+font-size: 25px;
+font-weight: 400;
+text-align: left;
+background-color: #f4f4f4;
+padding-bottom: 45px;
+opacity: 1;
+border-bottom:grey;
+margin: 15px;
+}
+
+button{
+font-family: "Sen", sans-serif;
+font-weight: 700;
+font-style: normal;
+padding: 20px;
+border-width: 0px;
+border-radius:10px;
+background: black;
+color: white;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+button:active{
+  background-color: grey;
+}
+
+.left{
+/*margin-left: 30px;*/
+flex: 1;
+float: left;
+width:60%;
+text-align:left;
+padding: 50px;
+padding-top: 125px;
+opacity: 1;
+}
+
+.right{
+flex: 1;
+float: right;
+width: 40%;
+border-radius:100%;
+border-width: 10px;
+padding-top: 50px;
+}
+
+.school{
+margin-left: 100px;
+width: 400px;
+height: 400px;
+border-radius: 100%;
+box-shadow: 3px 3px 100px white;
+}
+
+h1{
+font-family: Sen;
+color: black;
+}
+
+h3{
+  color: #1a1b1f;
+}
+
+/*
+Footer
+*/
+
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Sen";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: black;
+}
+
+.message{
+  flex: 1;
+  float: left;
+  width: 40%;
+  padding: 50px;
+  margin-left: 176px; 
+}
+
+p{
+  font-size: 20px;
+  width: 500px
+}
+
+.msg{
+  width:125px;
+  background-color: transparent;
+  text-shadow: 0px 0px 10px #FFFFFF;
+}
+
+.form{
+  flex: 1;
+  float: right;
+  width: 60%;
+  padding: 50px;
+  margin-right: 75px;
+}
+
+textarea{
+min-width:600px;
+min-height:100px;
+border-radius: 15px;
+border-width: 3px;
+border-color: grey;
+}
+
+input{
+  border-radius: 15px;
+  border-width: 3px;
+  border-color: grey;
+  min-width: 600px; 
+}
+
+
+
+#submit{
+color: white;
+border-style: solid;
+border-width: 2px;
+border-width: 0;
+}
+
+/*
+Services
+*/
+
+.ourservices-section {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Sen";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: black;
+  justify-content: center;
+}
+
+.content-titles {
+ /* border: 2px solid orange;*/
+  text-align: center;
+  margin: 2px;
+  height: 100px;
+  background-color: transparent;
+  text-shadow: 0px 0px 10px #FFFFFF;
+}
+
+.service-box-section {
+  display:flex;
+  justify-content: space-evenly;
+  height: 380px;
+  margin: 5px; 
+  align-items: center;
+}
+
+.service-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  align-items: center;
+  border-radius: 30px;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  margin: 20px;
+}
+
+
+.logo-box {
+  height: 130px;
+  width: 280px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.service-logo {
+  background-color: Black;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 10px;
+  object-fit:fill;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  aspect-ratio: 1/1;
+  background-color: black;
+}
+
+.service-header {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.service-content {
+  overflow: hidden;
+  text-align: center;
+  width: 200px;
+  font-size: 12px; 
+}
+
+/*
+Team
+*/
+
+.ourteam-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Sen";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  color: white;
+  
+}  
+
+.ourteam-header {
+  text-align: center;
+  margin: 1px;
+  color: white;
+  text-shadow: 0px 0px 10px #FFFFFF;
+  font-size: 1.6rem;
+  
+}
+.ourteam-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+.person-container {
+/*background: linear-gradient(135deg, #ee6238, #de7839);*/
+min-height: 300px;
+margin: 50px;
+display: flex;
+flex-direction: column;
+border-radius: 80px;
+padding: 20px;
+color: grey;
+/*box-shadow: 5px 10px 30px 0px #FF4D00F0 inset;*/
+} 
+
+#person1{
+  margin-left: auto;
+}
+
+#person2{
+  margin-right: auto;
+}
+
+.person-image {
+  object-fit:scale-down;
+  height:160px;
+  width: 160px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-size: cover;
+  display: flex;
+  aspect-ratio: 1/1;
+  background-color: black;
+  margin-left: 25px;
+}
+
+.person-image img{
+  object-fit: contain;
+  flex-shrink: 50;
+  min-width: 100%;
+  min-width: 100%;  
+}
+
+.person-name {
+  font-size: smaller;
+  text-align: center;
+  height: 30px;
+}
+
+.person-position {
+  text-align: center;
+  height: 20px;
+  margin-top: 15px;
+}
+
+/*
+Navbar
+*/
+
+.navbar ul {
+  list-style-type: none;
+  background-color: black;
+  padding: 15px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  
+}
+
+.navbar li {
+  float: none;
+  margin: 0px;
+  margin-right: 2px;
+  padding-right: 20px;
+}
+
+.navbar .logo {
+  margin-right: auto;
+  padding: 0 15px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar li {
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+}
+
+
+.navbar a:hover {
+  background-color: grey;
+  border-radius: 10px;
+}
+
+.navbar img {
+  max-height: auto;
+  width: auto;
+}
+
+.navbar{
+  font-family: "sen";
+  font-size: 1.1rem;
+  margin: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
